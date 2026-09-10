@@ -1,0 +1,18 @@
+name: MMSLT-How2Sign
+
+data:
+  label_path:
+    train: /mnt/aix22303/data/how2sign/How2Sign/prepared/mmslt_random4000_v3/labels/labels.train
+    dev: /mnt/aix22303/data/how2sign/How2Sign/prepared/mmslt_random4000_v3/labels/labels.dev
+    test: /mnt/aix22303/data/how2sign/How2Sign/prepared/mmslt_random4000_v3/labels/labels.test
+
+  descript_feat_path:
+    train: /mnt/aix22303/data/how2sign/How2Sign/prepared/mmslt_random4000_v3/descriptions/how2sign_SLdescriptions.train
+    dev: /mnt/aix22303/data/how2sign/How2Sign/prepared/mmslt_random4000_v3/descriptions/how2sign_SLdescriptions.dev
+    test: /mnt/aix22303/data/how2sign/How2Sign/prepared/mmslt_random4000_v3/descriptions/how2sign_SLdescriptions.test
+
+  img_path: /mnt/aix22303/data/how2sign/How2Sign/prepared/mmslt_random4000_v3/frames/
+  max_length: 500
+
+training:
+  wandb: disabled

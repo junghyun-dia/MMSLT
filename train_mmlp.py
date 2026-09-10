@@ -17,7 +17,7 @@ from transformers import MBartForConditionalGeneration, MBartConfig, MBart50Toke
 # *user-defined
 from models import MMLP
 import utils as utils
-from datasets import S2T_Dataset, S2T_CSLDataset
+from datasets import S2T_Dataset
 
 # *basic
 import os
